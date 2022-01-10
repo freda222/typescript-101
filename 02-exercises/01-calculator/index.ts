@@ -3,19 +3,19 @@
 // "divide".
 
 const add = (x: number, y: number): number => {
-    throw new Error("Not implemented")
+    return x + y
 }
 
 const subtract = (x: number, y: number): number => {
-    throw new Error("Not implemented")
+    return x - y
 }
 
 const multiply = (x: number, y: number): number => {
-    throw new Error("Not implemented")
+    return x * y
 }
 
 const divide = (x: number, y: number): number => {
-    throw new Error("Not implemented")
+    return x / y
 }
 
 let result = add(4, 3)
@@ -30,4 +30,5 @@ console.log(result) // 12.5
 result = divide(33, 4)
 console.log(result) // 8.25
 
-export {}
+export { }
+

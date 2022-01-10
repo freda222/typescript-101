@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/freda222/typescript-101/issues"
   },
-  "homepage": "https://github.com/freda222/typescript-101#readme"
+  "homepage": "https://github.com/freda222/typescript-101#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
 }

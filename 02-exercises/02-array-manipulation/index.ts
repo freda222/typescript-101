@@ -4,11 +4,11 @@
 // and returns it to the caller.
 
 const insertAtFirstPosition = (items: string[], item: string): string[] => {
-    throw new Error("Not implemented")
+    return [item, ...items]
 }
 
 const appendAtLastPosition = (items: string[], item: string): string[] => {
-    throw new Error("Not implemented")
+    return [...items, item]
 }
 
 let fruits = ["apple", "orange", "pear"]
@@ -20,4 +20,5 @@ console.log(fruits) // [ "melon", "apple", "orange", "pear" ]
 fruits = appendAtLastPosition(fruits, "grape")
 console.log(fruits) // [ "melon", "apple", "orange", "pear", "grape" ]
 
-export {}
+export { }
+
